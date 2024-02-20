@@ -1,0 +1,92 @@
+/* Put your Style Code here */
+body {
+  margin: 0;
+}
+
+.header {
+  background-image: url(/images/background-image.jpg);
+  background-size: auto;
+  overflow: hidden;
+  background-repeat: repeat;
+  border-bottom: 2px solid #a10c65;
+  padding: 10px;
+}
+.logo {
+  border-radius: 50%;
+  overflow: hidden;
+  height: 90px;
+  width: 90px;
+  margin-left: 20px;
+}
+.nav-bar {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background-color: #63043d;
+  font-family: cursive;
+}
+.links {
+  color: rgb(178, 132, 45);
+}
+h2 {
+  text-align: center;
+  color: #a10c65;
+  font-family: cursive;
+}
+.section-image {
+  border-radius: 50%;
+  border: 2px solid #a10c65;
+}
+.figure {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.section-1,
+.section-2 {
+  border-radius: 10px;
+  height: auto;
+  text-align: justify;
+  padding: 10px;
+}
+.section1-heading {
+  padding-left: 20px;
+  border-radius: 10px;
+  font-family: cursive;
+  background-color: orangered;
+  color: white;
+}
+.section2-heading {
+  padding-left: 20px;
+  border-radius: 10px;
+  font-family: cursive;
+  background-color: blue;
+  color: white;
+}
+.section-3 {
+  background-color: #63043d;
+  color: rgb(178, 132, 45);
+  display: grid;
+  border: 3px solid #efe85f;
+  padding: 20px;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+.footer-part {
+  background-image: url(/images/background-image.jpg);
+  background-size: auto;
+  overflow: hidden;
+  background-repeat: repeat;
+  border-bottom: 2px solid #a10c65;
+  padding: 20px;
+  color: darkblue;
+}
